@@ -185,7 +185,14 @@ input::placeholder {
   top: 5rem;
   left: 0;
   z-index: 5;
-  /* background-color: rgb(37, 60, 60); */
+  background-color: black;
+}
+.gr2 {
+  background-color: black;
+}
+.subscribe,
+.copyright {
+  background-color: black;
 }
 .menu:hover {
   overflow-y: auto;
@@ -237,12 +244,16 @@ hr {
   top: 5rem;
   left: 0;
   z-index: 10;
-  /* background-color: rgb(51, 177, 177); */
+  background-color: black;
   display: none;
 }
-/* .one:hover {
+.one .subscribe,
+.one .copyright {
+  background-color: black;
+}
+.one:hover {
   overflow-y: auto;
-} */
+}
 .one span {
   background-color: transparent;
 }
@@ -288,7 +299,7 @@ hr {
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   gap: 20px;
   /* overflow: hidden; */
-  /* background-color: rgba(16, 158, 111, 0.427); */
+  background-color: rgba(16, 158, 111, 0.427);
 }
 .vid {
   background-color: transparent;
