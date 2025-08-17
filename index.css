@@ -299,7 +299,7 @@ hr {
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   gap: 20px;
   /* overflow: hidden; */
-  background-color: rgba(16, 158, 111, 0.427);
+  background-color: black;
 }
 .vid {
   background-color: transparent;
